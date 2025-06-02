@@ -25,18 +25,18 @@ This is an ASP.NET Core Web API project for an online bookstore, built as part o
 
 ## 📂 Project Structure
 
-- `Controllers/` → API Endpoints
-- `Entities/` → Entity Models   
-- `Models/` → Entity Models  
-- `Services/` → Business Logic  
-- `Data/` → EF Core DBContext & Migrations  
-- `Extensions/` → Service Extensions
-- `Exceptions/` → Exception Handling
-- `Helpers/` → Helper classes  
-- `Middlewares/` → Logging & Error Handling
-- `Logs/` → Log folder
-- `Migrations/` → Database migrations   
-- `Program.cs` → Main App Configuration  
+├── Controllers/        → API endpoints
+├── Entities/           → Core entities
+├── Models/             → DTOs and view models
+├── Services/           → Business logic services
+├── Data/               → EF Core DbContext & seed data
+├── Extensions/         → Service registration extensions
+├── Exceptions/         → Custom exception handling
+├── Helpers/            → Utility and helper classes
+├── Middlewares/        → Logging, exception middleware
+├── Logs/               → Application logs (Serilog)
+├── Migrations/         → EF Core migrations
+└── Program.cs          → Application entry point
 
 ## 👥 Roles
 
