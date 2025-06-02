@@ -1,6 +1,6 @@
 # 📚 Online Bookstore API
 
-This is an ASP.NET Core Web API project for an online bookstore, built as part of an assignment. It supports user registration/login, user management by admin, book browsing, cartItem, Shipping info, order placement, and admin management.
+This is an ASP.NET Core Web API project for an online bookstore, built as part of an assignment. It supports user registration/login, user management by admin, book browsing, Shooping cart, Shipping info, order placement, and admin management.
 
 ## 🚀 Features
 
@@ -25,31 +25,31 @@ This is an ASP.NET Core Web API project for an online bookstore, built as part o
 
 ## 📂 Project Structure
 
-├── Controllers/        → API endpoints
-├── Entities/           → Core entities
-├── Models/             → DTOs and view models
-├── Services/           → Business logic services
-├── Data/               → EF Core DbContext & seed data
-├── Extensions/         → Service registration extensions
-├── Exceptions/         → Custom exception handling
-├── Helpers/            → Utility and helper classes
-├── Middlewares/        → Logging, exception middleware
-├── Logs/               → Application logs (Serilog)
-├── Migrations/         → EF Core migrations
-└── Program.cs          → Application entry point
+- Controllers/ → API Endpoints
+- Entities/ → Entity Models   
+- Models/ → Entity Models  
+- Services/ → Business Logic  
+- Data/ → EF Core DBContext & Migrations  
+- Extensions/ → Service Extensions
+- Exceptions/ → Exception Handling
+- Helpers/ → Helper classes  
+- Middlewares/ → Logging & Error Handling
+- Logs/ → Log folder
+- Migrations/ → Database migrations   
+- Program.cs → Main App Configuration 
 
 ## 👥 Roles
 
 - Admin: Full access to manage books/orders/Users  
 - User: Can place/view orders, browse books, cartItem
 
-## ✅ Prerequisites
+## Prerequisites
 
 - .NET 8/9 SDK  
 - MySQL  
 - dotnet-ef CLI tool  
 
-## 📄 License
+## License
 
 This is an project intended for assignment purposes only.
 
