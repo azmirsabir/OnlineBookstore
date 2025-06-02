@@ -2,7 +2,7 @@
 
 This is an ASP.NET Core Web API project for an online bookstore, built as part of an assignment. It supports user registration/login, user management by admin, book browsing, Shooping cart, Shipping info, order placement, and admin management.
 
-## 🚀 Features
+## Features
 
 - JWT Authentication & Role-based Authorization  
 - Admin & User separation  
@@ -12,7 +12,7 @@ This is an ASP.NET Core Web API project for an online bookstore, built as part o
 - Swagger/OpenAPI support  
 - MySQL + EF Core integration  
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository: `git clone git@github.com:azmirsabir/OnlineBookstore.git && cd OnlineBookstore`  
 2. Create a MySQL database: `CREATE DATABASE online_bookstore;` (via MySQL CLI or GUI)  
@@ -38,7 +38,7 @@ This is an ASP.NET Core Web API project for an online bookstore, built as part o
 - Migrations/ → Database migrations   
 - Program.cs → Main App Configuration 
 
-## 👥 Roles
+## Roles
 
 - Admin: Full access to manage books/orders/Users  
 - User: Can place/view orders, browse books, cartItem
